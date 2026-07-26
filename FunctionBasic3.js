@@ -1,5 +1,5 @@
 function validateEmail(email) {
-    if (email.includes("@") && email.includes(".")) {
+    if (email.includes("@") && email.includes(".") && email.includes()) {
         return "VALID";
     } else {
         return "INVALID";
